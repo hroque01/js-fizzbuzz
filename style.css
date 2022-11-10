@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 70px;
+    width: calc(10% - 10px);
+    margin: 5px;
+    background-color: #1389b2;
+}
+
+.fizz {
+    background-color: #0cd6a1;
+}
